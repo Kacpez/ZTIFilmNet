@@ -8,7 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-@CrossOrigin(origins = "http://ztifilmnet-frontend-production.up.railway.app")
+@CrossOrigin(origins = "https://ztifilmnet-frontend-production.up.railway.app")
 @RestController
 @RequestMapping("/api/v1/streaming_platforms")
 public class StreamingPlatformController {
